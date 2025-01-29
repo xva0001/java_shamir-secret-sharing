@@ -1,4 +1,4 @@
-import java.math.BigInteger;
+//import java.math.BigInteger;
 import java.util.ArrayList;
 
 import org.w3c.dom.ranges.RangeException;
@@ -233,7 +233,7 @@ public class ShamirSecretSharing {
             throw new Exception("threshold must be less than or equal to shared");
         }
 
-        long secretBytesLen = secretArr.length;
+        //long secretBytesLen = secretArr.length;
         int[] xCoords = newCoordinates();
         ArrayList<int[]> res = new ArrayList<>();
 
