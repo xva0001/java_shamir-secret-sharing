@@ -294,7 +294,7 @@ public class ShamirSecretSharing {
             secret[i] = interpolate(0, xCoords, yCoords);
         }
         
-        return randomBytes.intArrayToByteArray_pure_no_padding(secret);
+        return randomBytes.intArrayToByteArray(secret);  //for non-ascii
     }
 
 
